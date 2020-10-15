@@ -60,7 +60,7 @@
 		311669E6DDCEC4A545ECC29F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3CA4A99CD2608050E6AE400C /* CMTabbarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CMTabbarView.podspec; path = ../CMTabbarView.podspec; sourceTree = "<group>"; };
 		46C189241B5B971180615BC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* CMTabbarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMTabbarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CMTabbarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMTabbarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -166,7 +166,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CMTabbarView_Example.app */,
+				6003F58A195388D20070C39A /* CMTabbarView.app */,
 				6003F5AE195388D20070C39A /* CMTabbarView_Tests.xctest */,
 				77C4010E1EADA63900A6B728 /* StoryboardDemo.app */,
 				77C401261EADA63A00A6B728 /* StoryboardDemoTests.xctest */,
@@ -298,9 +298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* CMTabbarView_Example */ = {
+		6003F589195388D20070C39A /* CMTabbarView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CMTabbarView_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CMTabbarView" */;
 			buildPhases = (
 				4E8262EEA8C18F2480DE3F9D /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -313,9 +313,9 @@
 			);
 			dependencies = (
 			);
-			name = CMTabbarView_Example;
+			name = CMTabbarView;
 			productName = CMTabbarView;
-			productReference = 6003F58A195388D20070C39A /* CMTabbarView_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* CMTabbarView.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CMTabbarView_Tests */ = {
@@ -412,6 +412,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -420,7 +421,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* CMTabbarView_Example */,
+				6003F589195388D20070C39A /* CMTabbarView */,
 				6003F5AD195388D20070C39A /* CMTabbarView_Tests */,
 				77C4010D1EADA63900A6B728 /* StoryboardDemo */,
 				77C401251EADA63A00A6B728 /* StoryboardDemoTests */,
@@ -650,7 +651,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* CMTabbarView_Example */;
+			target = 6003F589195388D20070C39A /* CMTabbarView */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 		77C401281EADA63A00A6B728 /* PBXTargetDependency */ = {
@@ -990,7 +991,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CMTabbarView_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CMTabbarView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

@@ -15,13 +15,12 @@
 		315BBC7D5DEE9A0010984E6A4282725E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		43D374A39DD163DF37F7ACA81DE42A41 /* Pods-CMTabbarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE849CC811948CC5B22F4231A864A05F /* Pods-CMTabbarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A5699236BDA7D8817F4C61D303D1F12 /* CMTabbarView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 061DD0949B82ED7EA10AEFD9B8746BE3 /* CMTabbarView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3659A9253824B600F2B567 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BDADFEB05A435659221925084B5EE4 /* CMTabbarView.h */; };
 		74A2EBE7B58902DAD0A119D03A501681 /* Pods-CMTabbarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE427B2C4EADFEEF87EDA34146AF7EDA /* Pods-CMTabbarView_Tests-dummy.m */; };
 		8CE2855C5D1278B320E26121A937E617 /* Pods-CMTabbarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749656C88353FC95F6803D63E9C520C2 /* Pods-CMTabbarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F2E7D5A845C2733274E3D5822D6217F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9EA25AA745416017621A6537B27CD5CF /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BDADFEB05A435659221925084B5EE4 /* CMTabbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8032814674C41E534FBA22B5DD1572F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B7730C606F0CA3DCFFED00DD8AD05B1A /* CMTabbarView-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C344B355E838B721FB70D931A7B346 /* CMTabbarView-iOS10.2-dummy.m */; };
-		CA2124CFC7AA96D36F009298BF9329E6 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BDADFEB05A435659221925084B5EE4 /* CMTabbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEAE4F14A47171A2C01299666F9F16F0 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C471F6C2F2F9AF42F38994919BA68C8 /* CMTabbarView.m */; };
 		EBAEE7EEFE7AFC25953858493E844E08 /* Pods-StoryboardDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3013F150A77115774752DCADC6D9217 /* Pods-StoryboardDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6CE0933F27EF70CFA76D67FB52D50A1 /* Pods-CMTabbarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CAAD5B0460C63A7F986811495F6BEC /* Pods-CMTabbarView_Example-dummy.m */; };
@@ -317,7 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29301E4BF48EBF59DBB9ABD7CD393659 /* CMTabbarView-iOS10.2-umbrella.h in Headers */,
-				CA2124CFC7AA96D36F009298BF9329E6 /* CMTabbarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5699236BDA7D8817F4C61D303D1F12 /* CMTabbarView-iOS8.0-umbrella.h in Headers */,
-				9EA25AA745416017621A6537B27CD5CF /* CMTabbarView.h in Headers */,
+				6A3659A9253824B600F2B567 /* CMTabbarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +448,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
