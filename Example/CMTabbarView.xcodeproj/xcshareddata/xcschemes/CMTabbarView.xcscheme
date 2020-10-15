@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8585CE0951FA80E228041072D528305"
+               BlueprintIdentifier = "6A3659FE25382DFE00F2B567"
                BuildableName = "CMTabbarView.framework"
-               BlueprintName = "CMTabbarView-iOS10.2"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               BlueprintName = "CMTabbarView"
+               ReferencedContainer = "container:CMTabbarView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E8585CE0951FA80E228041072D528305"
+            BlueprintIdentifier = "6A3659FE25382DFE00F2B567"
             BuildableName = "CMTabbarView.framework"
-            BlueprintName = "CMTabbarView-iOS10.2"
-            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            BlueprintName = "CMTabbarView"
+            ReferencedContainer = "container:CMTabbarView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

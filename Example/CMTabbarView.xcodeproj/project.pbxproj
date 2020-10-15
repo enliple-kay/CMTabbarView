@@ -22,6 +22,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6A365A0325382DFE00F2B567 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A0125382DFE00F2B567 /* CMTabbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A365A0625382DFE00F2B567 /* CMTabbarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */; };
+		6A365A0725382DFE00F2B567 /* CMTabbarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A365A2625382E2300F2B567 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A365A1425382E1200F2B567 /* CMTabbarView.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7745025A1F2B437A00ECBDD1 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 774502591F2B437A00ECBDD1 /* DemoCell.m */; };
 		77C401121EADA63A00A6B728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C401111EADA63A00A6B728 /* main.m */; };
@@ -45,6 +49,13 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = CMTabbarView;
 		};
+		6A365A0425382DFE00F2B567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A3659FE25382DFE00F2B567;
+			remoteInfo = CMTabbarView;
+		};
 		77C401271EADA63A00A6B728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -53,6 +64,20 @@
 			remoteInfo = StoryboardDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A365A0B25382DFE00F2B567 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A365A0725382DFE00F2B567 /* CMTabbarView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		286E23B895F04E6E7BC385CF /* Pods-CMTabbarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMTabbarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMTabbarView_Tests/Pods-CMTabbarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +104,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMTabbarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A365A0125382DFE00F2B567 /* CMTabbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTabbarView.h; sourceTree = "<group>"; };
+		6A365A0225382DFE00F2B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A365A1325382E1200F2B567 /* CMTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTabbarView.h; sourceTree = "<group>"; };
+		6A365A1425382E1200F2B567 /* CMTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTabbarView.m; sourceTree = "<group>"; };
 		6B7B1A7EFA5EBEDFDE892A48 /* Pods_StoryboardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C130E2E206295D27610FB00 /* Pods_CMTabbarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMTabbarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,6 +147,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				7E35DFBEC93AB8F23EE624B4 /* Pods_CMTabbarView_Example.framework in Frameworks */,
+				6A365A0625382DFE00F2B567 /* CMTabbarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +159,13 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				00B70BBADB0C467586FA8EE3 /* Pods_CMTabbarView_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3659FC25382DFE00F2B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,11 +190,13 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				6A365A1025382E1200F2B567 /* CMTabbarView */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CMTabbarView */,
 				6003F5B5195388D20070C39A /* Tests */,
 				77C4010F1EADA63A00A6B728 /* StoryboardDemo */,
 				77C401291EADA63A00A6B728 /* StoryboardDemoTests */,
+				6A365A0025382DFE00F2B567 /* CMTabbarView */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				AD6E8FE5AC37B419AC23B54D /* Pods */,
@@ -170,6 +210,7 @@
 				6003F5AE195388D20070C39A /* CMTabbarView_Tests.xctest */,
 				77C4010E1EADA63900A6B728 /* StoryboardDemo.app */,
 				77C401261EADA63A00A6B728 /* StoryboardDemoTests.xctest */,
+				6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +287,41 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6A365A0025382DFE00F2B567 /* CMTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				6A365A0125382DFE00F2B567 /* CMTabbarView.h */,
+				6A365A0225382DFE00F2B567 /* Info.plist */,
+			);
+			path = CMTabbarView;
+			sourceTree = "<group>";
+		};
+		6A365A1025382E1200F2B567 /* CMTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				6A365A1125382E1200F2B567 /* Classes */,
+				6A365A1525382E1200F2B567 /* Assets */,
+			);
+			name = CMTabbarView;
+			path = ../CMTabbarView;
+			sourceTree = "<group>";
+		};
+		6A365A1125382E1200F2B567 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A365A1325382E1200F2B567 /* CMTabbarView.h */,
+				6A365A1425382E1200F2B567 /* CMTabbarView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A365A1525382E1200F2B567 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		77C4010F1EADA63A00A6B728 /* StoryboardDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +373,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6A3659FA25382DFE00F2B567 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A365A0325382DFE00F2B567 /* CMTabbarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* CMTabbarView_a */ = {
 			isa = PBXNativeTarget;
@@ -308,10 +395,12 @@
 				6003F588195388D20070C39A /* Resources */,
 				0CA58EABD09B6624397134D6 /* [CP] Embed Pods Frameworks */,
 				B202A6BB94F979A428482492 /* [CP] Copy Pods Resources */,
+				6A365A0B25382DFE00F2B567 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6A365A0525382DFE00F2B567 /* PBXTargetDependency */,
 			);
 			name = CMTabbarView_a;
 			productName = CMTabbarView;
@@ -338,6 +427,24 @@
 			productName = CMTabbarViewTests;
 			productReference = 6003F5AE195388D20070C39A /* CMTabbarView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A3659FE25382DFE00F2B567 /* CMTabbarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A365A0825382DFE00F2B567 /* Build configuration list for PBXNativeTarget "CMTabbarView" */;
+			buildPhases = (
+				6A3659FA25382DFE00F2B567 /* Headers */,
+				6A3659FB25382DFE00F2B567 /* Sources */,
+				6A3659FC25382DFE00F2B567 /* Frameworks */,
+				6A3659FD25382DFE00F2B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMTabbarView;
+			productName = CMTabbarView;
+			productReference = 6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		77C4010D1EADA63900A6B728 /* StoryboardDemo */ = {
 			isa = PBXNativeTarget;
@@ -394,6 +501,11 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					6A3659FE25382DFE00F2B567 = {
+						CreatedOnToolsVersion = 12.0.1;
+						DevelopmentTeam = 4262G7AU8L;
+						ProvisioningStyle = Automatic;
+					};
 					77C4010D1EADA63900A6B728 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DT68QGR8Y9;
@@ -425,6 +537,7 @@
 				6003F5AD195388D20070C39A /* CMTabbarView_Tests */,
 				77C4010D1EADA63900A6B728 /* StoryboardDemo */,
 				77C401251EADA63A00A6B728 /* StoryboardDemoTests */,
+				6A3659FE25382DFE00F2B567 /* CMTabbarView */,
 			);
 		};
 /* End PBXProject section */
@@ -446,6 +559,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3659FD25382DFE00F2B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +747,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A3659FB25382DFE00F2B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A365A2625382E2300F2B567 /* CMTabbarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77C4010A1EADA63900A6B728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,6 +781,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* CMTabbarView_a */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		6A365A0525382DFE00F2B567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A3659FE25382DFE00F2B567 /* CMTabbarView */;
+			targetProxy = 6A365A0425382DFE00F2B567 /* PBXContainerItemProxy */;
 		};
 		77C401281EADA63A00A6B728 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -811,6 +944,7 @@
 				GCC_PREFIX_HEADER = "CMTabbarView/CMTabbarView-Prefix.pch";
 				INFOPLIST_FILE = "CMTabbarView/CMTabbarView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchaoshi.tabbarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -832,6 +966,7 @@
 				GCC_PREFIX_HEADER = "CMTabbarView/CMTabbarView-Prefix.pch";
 				INFOPLIST_FILE = "CMTabbarView/CMTabbarView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchaoshi.tabbarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -882,6 +1017,79 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMTabbarView_Example.app/CMTabbarView_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6A365A0925382DFE00F2B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4262G7AU8L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CMTabbarView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.CMTabbarView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A365A0A25382DFE00F2B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CMTabbarView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.CMTabbarView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1005,6 +1213,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A365A0825382DFE00F2B567 /* Build configuration list for PBXNativeTarget "CMTabbarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A365A0925382DFE00F2B567 /* Debug */,
+				6A365A0A25382DFE00F2B567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,38 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016A62901022F02768641EDAFD904FFC /* CMTabbarView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6864B407EABFF62CD477CB2AFDBC83 /* CMTabbarView-iOS8.0-dummy.m */; };
 		0D24C00E35C07041FC0005573A778138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1F91C11DF5999931189C83C794285EE6 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C471F6C2F2F9AF42F38994919BA68C8 /* CMTabbarView.m */; };
-		2038B51741D85F7DFAE492B5B5CE14A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		29301E4BF48EBF59DBB9ABD7CD393659 /* CMTabbarView-iOS10.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A83878C4C1BC7E40115AE0E75457D1 /* CMTabbarView-iOS10.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		315BBC7D5DEE9A0010984E6A4282725E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		43D374A39DD163DF37F7ACA81DE42A41 /* Pods-CMTabbarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE849CC811948CC5B22F4231A864A05F /* Pods-CMTabbarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A5699236BDA7D8817F4C61D303D1F12 /* CMTabbarView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 061DD0949B82ED7EA10AEFD9B8746BE3 /* CMTabbarView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A3659A9253824B600F2B567 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BDADFEB05A435659221925084B5EE4 /* CMTabbarView.h */; };
 		74A2EBE7B58902DAD0A119D03A501681 /* Pods-CMTabbarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE427B2C4EADFEEF87EDA34146AF7EDA /* Pods-CMTabbarView_Tests-dummy.m */; };
 		8CE2855C5D1278B320E26121A937E617 /* Pods-CMTabbarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749656C88353FC95F6803D63E9C520C2 /* Pods-CMTabbarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F2E7D5A845C2733274E3D5822D6217F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A8032814674C41E534FBA22B5DD1572F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B7730C606F0CA3DCFFED00DD8AD05B1A /* CMTabbarView-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C344B355E838B721FB70D931A7B346 /* CMTabbarView-iOS10.2-dummy.m */; };
-		DEAE4F14A47171A2C01299666F9F16F0 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C471F6C2F2F9AF42F38994919BA68C8 /* CMTabbarView.m */; };
+		B7730C606F0CA3DCFFED00DD8AD05B1A /* CMTabbarView-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C344B355E838B721FB70D931A7B346 /* CMTabbarView-iOS10.2-dummy.m */; platformFilter = ios; };
+		DEAE4F14A47171A2C01299666F9F16F0 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C471F6C2F2F9AF42F38994919BA68C8 /* CMTabbarView.m */; platformFilter = ios; };
 		EBAEE7EEFE7AFC25953858493E844E08 /* Pods-StoryboardDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3013F150A77115774752DCADC6D9217 /* Pods-StoryboardDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6CE0933F27EF70CFA76D67FB52D50A1 /* Pods-CMTabbarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CAAD5B0460C63A7F986811495F6BEC /* Pods-CMTabbarView_Example-dummy.m */; };
 		FDD24A918F71DFDE3784E58B34A2960B /* Pods-StoryboardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74F5A682FCFB5082309F83E1CC9A8B /* Pods-StoryboardDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8909E479775DEA3C7552E3F19AA138B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1092EBFD426F199CBA3C24BB311A0FB3;
-			remoteInfo = "CMTabbarView-iOS8.0";
-		};
 		990759DB350BA400010F885EB09546B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -54,7 +42,6 @@
 		33914491DCFD97AB17D62A2CDDEB9B8F /* Pods-CMTabbarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabbarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		34DAF5B32A2BE10874D04EF5EDC1862E /* Pods-CMTabbarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabbarView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		358CECE75CE4EB17F8251081908DD96C /* CMTabbarView-iOS10.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CMTabbarView-iOS10.2.xcconfig"; sourceTree = "<group>"; };
-		3B91570CB7F3257CFB7EA5EC86389D9B /* CMTabbarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMTabbarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D74F5A682FCFB5082309F83E1CC9A8B /* Pods-StoryboardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryboardDemo-dummy.m"; sourceTree = "<group>"; };
 		3E6864B407EABFF62CD477CB2AFDBC83 /* CMTabbarView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CMTabbarView-iOS8.0-dummy.m"; path = "../CMTabbarView-iOS8.0/CMTabbarView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
 		3E91C595A8347521AC1BEF5DBFFDF88F /* CMTabbarView-iOS10.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CMTabbarView-iOS10.2.modulemap"; sourceTree = "<group>"; };
@@ -131,14 +118,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F39939D0BFA70D2BFCC42379452BDBC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2038B51741D85F7DFAE492B5B5CE14A5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -204,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				E2671E1C1B6409C52C018D863393AEC8 /* CMTabbarView.framework */,
-				3B91570CB7F3257CFB7EA5EC86389D9B /* CMTabbarView.framework */,
 				CFDA483D3A30B1DD762CBA16DE1A118B /* Pods_CMTabbarView_Example.framework */,
 				0008A77BC488BBC4CD31D9737E193D09 /* Pods_CMTabbarView_Tests.framework */,
 				C58480D48B01DE6BDC840D9592A2A6F3 /* Pods_StoryboardDemo.framework */,
@@ -319,15 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CD941491304F348C1B680FB56F7CF00 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A5699236BDA7D8817F4C61D303D1F12 /* CMTabbarView-iOS8.0-umbrella.h in Headers */,
-				6A3659A9253824B600F2B567 /* CMTabbarView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9BF833BB496AA3D6A7F81EBBA00D09FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,23 +316,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1092EBFD426F199CBA3C24BB311A0FB3 /* CMTabbarView-iOS8.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD1C27F3B98E6DF260B24A769B9611BC /* Build configuration list for PBXNativeTarget "CMTabbarView-iOS8.0" */;
-			buildPhases = (
-				549D5518FCF35CC832857F404BC64B76 /* Sources */,
-				F39939D0BFA70D2BFCC42379452BDBC5 /* Frameworks */,
-				2CD941491304F348C1B680FB56F7CF00 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CMTabbarView-iOS8.0";
-			productName = "CMTabbarView-iOS8.0";
-			productReference = 3B91570CB7F3257CFB7EA5EC86389D9B /* CMTabbarView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7D80223BFC7990CF4E009E875CD77151 /* Pods-CMTabbarView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7D49E76AA82690A9FCE1DD594AADA88 /* Build configuration list for PBXNativeTarget "Pods-CMTabbarView_Example" */;
@@ -375,7 +327,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9B5BC3DDFB2B0D573A993E7589AC8637 /* PBXTargetDependency */,
 			);
 			name = "Pods-CMTabbarView_Example";
 			productName = "Pods-CMTabbarView_Example";
@@ -457,7 +408,6 @@
 			projectRoot = "";
 			targets = (
 				E8585CE0951FA80E228041072D528305 /* CMTabbarView-iOS10.2 */,
-				1092EBFD426F199CBA3C24BB311A0FB3 /* CMTabbarView-iOS8.0 */,
 				7D80223BFC7990CF4E009E875CD77151 /* Pods-CMTabbarView_Example */,
 				EDB84559F87D875BA0E7BE275BCE7F2F /* Pods-CMTabbarView_Tests */,
 				D3DAFFA01D479635BC2550FAC3E51B87 /* Pods-StoryboardDemo */,
@@ -491,15 +441,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		549D5518FCF35CC832857F404BC64B76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				016A62901022F02768641EDAFD904FFC /* CMTabbarView-iOS8.0-dummy.m in Sources */,
-				1F91C11DF5999931189C83C794285EE6 /* CMTabbarView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8109D8CA4FC55BDD74C54F6AED81793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,12 +457,6 @@
 			name = "CMTabbarView-iOS10.2";
 			target = E8585CE0951FA80E228041072D528305 /* CMTabbarView-iOS10.2 */;
 			targetProxy = 990759DB350BA400010F885EB09546B8 /* PBXContainerItemProxy */;
-		};
-		9B5BC3DDFB2B0D573A993E7589AC8637 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CMTabbarView-iOS8.0";
-			target = 1092EBFD426F199CBA3C24BB311A0FB3 /* CMTabbarView-iOS8.0 */;
-			targetProxy = 8909E479775DEA3C7552E3F19AA138B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -597,7 +532,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CMTabbarView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CMTabbarView_Example/Pods-CMTabbarView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -633,7 +572,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardDemo/Pods-StoryboardDemo.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -649,38 +592,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		612099FE6CFE8001C6A88F06DBDBF3AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14AC5A489F809093D4AF085F4817342 /* CMTabbarView-iOS8.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CMTabbarView-iOS8.0/CMTabbarView-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CMTabbarView-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CMTabbarView-iOS8.0/CMTabbarView-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CMTabbarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8AC49C5D81C5596ED4CE27558DAFAD2F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -701,7 +612,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CMTabbarView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CMTabbarView_Example/Pods-CMTabbarView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -737,7 +652,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-StoryboardDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StoryboardDemo/Pods-StoryboardDemo.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -773,7 +692,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CMTabbarView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CMTabbarView_Tests/Pods-CMTabbarView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -810,7 +733,11 @@
 				INFOPLIST_FILE = "Target Support Files/CMTabbarView-iOS10.2/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/CMTabbarView-iOS10.2/CMTabbarView-iOS10.2.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = CMTabbarView;
@@ -878,38 +805,6 @@
 			};
 			name = Debug;
 		};
-		C55B902858B013D89322ECC3530A3A9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14AC5A489F809093D4AF085F4817342 /* CMTabbarView-iOS8.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CMTabbarView-iOS8.0/CMTabbarView-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CMTabbarView-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CMTabbarView-iOS8.0/CMTabbarView-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CMTabbarView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EDEBA734BE5712BCB7EAFFB362780E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A542BCF2A0474476CCCEC7C3DA5BD90F /* Pods-CMTabbarView_Tests.release.xcconfig */;
@@ -929,7 +824,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CMTabbarView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CMTabbarView_Tests/Pods-CMTabbarView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -966,7 +865,11 @@
 				INFOPLIST_FILE = "Target Support Files/CMTabbarView-iOS10.2/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/CMTabbarView-iOS10.2/CMTabbarView-iOS10.2.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = CMTabbarView;
@@ -1013,15 +916,6 @@
 			buildConfigurations = (
 				8AC49C5D81C5596ED4CE27558DAFAD2F /* Debug */,
 				4B47624F7EFF7FD59FD2245C09F60ED0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD1C27F3B98E6DF260B24A769B9611BC /* Build configuration list for PBXNativeTarget "CMTabbarView-iOS8.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C55B902858B013D89322ECC3530A3A9B /* Debug */,
-				612099FE6CFE8001C6A88F06DBDBF3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
