@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "CMTabbarView.app"
-               BlueprintName = "CMTabbarView"
+               BuildableName = "CMTabbarView_a.app"
+               BlueprintName = "CMTabbarView_a"
                ReferencedContainer = "container:CMTabbarView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CMTabbarView.app"
-            BlueprintName = "CMTabbarView"
+            BuildableName = "CMTabbarView_a.app"
+            BlueprintName = "CMTabbarView_a"
             ReferencedContainer = "container:CMTabbarView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CMTabbarView.app"
-            BlueprintName = "CMTabbarView"
+            BuildableName = "CMTabbarView_a.app"
+            BlueprintName = "CMTabbarView_a"
             ReferencedContainer = "container:CMTabbarView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,8 +81,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CMTabbarView.app"
-            BlueprintName = "CMTabbarView"
+            BuildableName = "CMTabbarView_a.app"
+            BlueprintName = "CMTabbarView_a"
             ReferencedContainer = "container:CMTabbarView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
