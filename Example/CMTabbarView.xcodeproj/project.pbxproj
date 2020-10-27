@@ -22,7 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6A365A0325382DFE00F2B567 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A0125382DFE00F2B567 /* CMTabbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A2C39D32547E0B400D39DAF /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A1325382E1200F2B567 /* CMTabbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A365A0325382DFE00F2B567 /* CMTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A0125382DFE00F2B567 /* CMTabbarView.h */; };
 		6A365A0625382DFE00F2B567 /* CMTabbarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */; };
 		6A365A0725382DFE00F2B567 /* CMTabbarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659FF25382DFE00F2B567 /* CMTabbarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A365A2625382E2300F2B567 /* CMTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A365A1425382E1200F2B567 /* CMTabbarView.m */; };
@@ -378,6 +379,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2C39D32547E0B400D39DAF /* CMTabbarView.h in Headers */,
 				6A365A0325382DFE00F2B567 /* CMTabbarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
